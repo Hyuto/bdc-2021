@@ -10,8 +10,21 @@ Kaggle Dataset : [disini](https://www.kaggle.com/wahyusetianto/bdc-2021)
 
 ## To Do's
 
-1. Memilih dan Melabelkan foto yang ambigu.
+1. Filtering data gambar yang kurang baik untuk digunakan.
 2. Augmentasi Data
 3. Coba Model yang berbeda.
 4. Grayscale dataset
 5. dll.
+
+## Hal yang udah di coba
+
+**Preprocessing**
+
+1. Pake `MTCNN` untuk mengambil daerah sekitar muka
+2. Ubah ukuran data gambar menjadi beberapa ukuran. <br>
+   **Hasil** : Kurang tau semakin kecil resolusi gambar yang digunakan hasil yang
+   didapatkan dari model sedikit meningkat
+
+**Modelling**
+
+1. Pake Resnet50 butuh lebih banyak epoch utuk training agar optimal
