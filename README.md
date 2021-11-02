@@ -14,7 +14,6 @@ Kaggle Dataset : [disini](https://www.kaggle.com/wahyusetianto/bdc-2021)
 2. Augmentasi Data
 3. Coba Model yang berbeda.
 4. Grayscale dataset
-5. dll.
 
 ## Hal yang udah di coba
 
