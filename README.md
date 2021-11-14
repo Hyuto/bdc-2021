@@ -1,5 +1,6 @@
 # BDC - Satria Data 2021
 
+![love](https://img.shields.io/badge/Made%20with-🖤-white)
 [![Python](https://img.shields.io/badge/Python-3.7%20|%203.8%20|%203.9-green?logo=python)](https://www.python.org/)
 [![TensorFlow 2.6](https://img.shields.io/badge/TensorFlow-2.6.0-FF6F00?logo=tensorflow)](https://github.com/tensorflow/tensorflow/releases/tag/v2.6.0)
 
@@ -62,3 +63,5 @@ akan digandakan sebanyak `3x` untuk mendapatkan data yang baru.
    Berikut adalah arsitektur model yang tim kami gunakan untuk pendeteksian umur.
 
    ![arsitektur-age](./assets/arsitektur-model.png)
+
+© Blazing Trio 2021
