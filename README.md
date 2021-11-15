@@ -11,15 +11,16 @@ Repo untuk merekam segala resources dalam lomba BDC - Satria Data tahun 2021.
 ## Dataset
 
 1. [Kaggle](https://www.kaggle.com/wahyusetianto/bdc-2021)
-2. [Github](./data/README.md)
+2. [Github](./data)
 
-## [Notebook](./notebook/README.md)
+## [Notebook](./notebook)
 
 Beberapa notebook yang kami gunakan untuk mengerjakan challenge.
 
 1. `[STARTER] BDC - 2021` : Starter notebook untuk mengerjakan challenge pertama dalam `BDC - Satria Data 2021`.
-2. `[GENDER] BDC - 2021` : Final notebook untuk challenge pertama yaitu gender detection.
-3. `[AGE] BDC - 2021`
+2. `[PREPROCESS] BDC - 2021` : Notebook untuk melakukan preprocessing terhadap data gambar.
+3. `[GENDER] BDC - 2021` : Final notebook untuk challenge pertama yaitu gender detection.
+4. `[AGE] BDC - 2021` : Final notebook untuk challenge kedua yaitu age detection.
 
 ## Preprocessing
 
