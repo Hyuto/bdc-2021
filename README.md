@@ -38,7 +38,14 @@ Melakukan preprocessing data gambar yang akan dilatih kedalam model.
 
    Ubah ukuran data gambar menjadi `200 x 200` pixel [FINAL]
 
-3. Normalize
+3. Filtering
+
+   Filterisasi gambar yang akan digunakan untuk training model.
+
+   - `excluded-age.txt` : Daftar nama file/gambar yang dihilangkan karena tidak baik digunakan untuk pelatihan model "umur"
+   - `excluded-gender.txt` : Daftar nama file/gambar yang dihilangkan karena tidak baik digunakan untuk pelatihan model "gender"
+
+4. Normalize
 
    Normalisasi data gambar => Mengubah distribusi nilai dalam matrix gambar menjadi berada dalam selang `0 - 1` dengan cara membagi nilai yang ada di dalam matrix dengan `255` [FINAL]
 
@@ -55,10 +62,12 @@ Melakukan augmentasi untuk memperbanyak data. Metode augmentasi yang digunakan y
 5. Blur dengan peluang `0.4`
 6. Random brightness pada rentang limit `-0.25` sampai `0.15` dengan peluang `0.4`
 
-Digunakan library `albumentations` untuk melakukan hal diatas. Setiap gambar yang ada didata `train`
+Digunakan library [`albumentations`](https://github.com/albumentations-team/albumentations) untuk melakukan hal diatas. Setiap gambar yang ada didata `train`
 akan digandakan sebanyak `3x` untuk mendapatkan data yang baru.
 
 ## Modelling
+
+**Weight** dari model yang digunakan untuk submission oleh kelompok `SD20210000722` ada [disini](./models)
 
 1. Gender Detection
 
