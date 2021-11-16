@@ -1,6 +1,6 @@
 # Dataset
 
-[![kaggle](https://img.shields.io/badge/Kaggle%20dataset-disini-blue?logo=kaggle)](https://www.kaggle.com/wahyusetianto/bdc-2021)
+[![kaggle](https://img.shields.io/badge/Kaggle-Dataset-blue?logo=kaggle)](https://www.kaggle.com/wahyusetianto/bdc-2021)
 
 Dataset hasil preprocessing dan augmentasi dari kelompok Blazing Trio | `SD20210000722`.
 

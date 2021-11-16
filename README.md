@@ -10,8 +10,9 @@ Repo untuk merekam segala resources dalam lomba BDC - Satria Data tahun 2021.
 
 ## Dataset
 
-1. [Kaggle](https://www.kaggle.com/wahyusetianto/bdc-2021)
-2. [Github](./data)
+Dataset hasil preprocessing dan augmentasi dapat diakses lewat platform berikut.
+
+[![kaggle](https://img.shields.io/badge/Kaggle-blue?logo=kaggle)](https://www.kaggle.com/wahyusetianto/bdc-2021) [![Github](https://img.shields.io/badge/Github-black?logo=github)](./data)
 
 ## [Notebook](./notebook)
 
@@ -26,14 +27,20 @@ Beberapa notebook yang kami gunakan untuk mengerjakan challenge.
 
 Melakukan preprocessing data gambar yang akan dilatih kedalam model.
 
-1. Menggunakan `MTCNN` untuk mengambil daerah sekitar wajah, dilakukan filtering terhadap hasil dari
+1. [**MTCNN**](https://github.com/ipazc/mtcnn)
+
+   Menggunakan `MTCNN` untuk mengambil daerah sekitar wajah, dilakukan filtering terhadap hasil dari
    `MTCNN` dengan `confidence score > 0.95` [FINAL]
 
    ![MTCNN](./assets/MTCNN.png)
 
-2. Ubah ukuran data gambar menjadi `200 x 200` pixel [FINAL]
-3. Normalisasi data gambar => Mengubah distribusi nilai dalam matrix gambar menjadi berada dalam
-   selang `0 - 1` dengan cara membagi nilai yang ada di dalam matrix dengan `255` [FINAL]
+2. Resizing Image
+
+   Ubah ukuran data gambar menjadi `200 x 200` pixel [FINAL]
+
+3. Normalize
+
+   Normalisasi data gambar => Mengubah distribusi nilai dalam matrix gambar menjadi berada dalam selang `0 - 1` dengan cara membagi nilai yang ada di dalam matrix dengan `255` [FINAL]
 
 ## Augmentasi
 
