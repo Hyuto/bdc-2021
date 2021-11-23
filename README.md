@@ -38,9 +38,13 @@ Melakukan preprocessing data gambar yang akan dilatih kedalam model.
 
    Ubah ukuran data gambar menjadi `200 x 200` pixel [FINAL]
 
+   ![resize](./assets/resize.png)
+
 3. Filtering
 
    Filterisasi gambar yang akan digunakan untuk training model.
+
+   ![filtering](./assets/filtering.png)
 
    - `excluded-age.txt` : Daftar nama file/gambar yang dihilangkan karena tidak baik digunakan untuk pelatihan model "umur"
    - `excluded-gender.txt` : Daftar nama file/gambar yang dihilangkan karena tidak baik digunakan untuk pelatihan model "gender"
@@ -73,12 +77,12 @@ akan digandakan sebanyak `3x` untuk mendapatkan data yang baru.
 
    Berikut adalah arsitektur model yang tim kami gunakan untuk pendeteksian gender.
 
-   ![arsitektur-gender](./assets/arsitektur-model-gender.png)
+   [![arsitektur-gender](https://img.shields.io/badge/View%20on-Netron-white?logo=electron)](https://netron.app/?url=https://raw.githubusercontent.com/Hyuto/bdc-2021/master/models/sample-gender.h5)
 
 2. Age Detection
 
    Berikut adalah arsitektur model yang tim kami gunakan untuk pendeteksian umur.
 
-   ![arsitektur-age](./assets/arsitektur-model.png)
+   [![arsitektur-age](https://img.shields.io/badge/View%20on-Netron-white?logo=electron)](https://netron.app/?url=https://raw.githubusercontent.com/Hyuto/bdc-2021/master/models/sample-age.h5)
 
 © Blazing Trio 2021
